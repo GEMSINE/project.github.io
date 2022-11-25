@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+      margin:0;
+      padding:0;
+    }
+    .container img{
+      width:390px;
+      
+    }
+    .container div{
+      position: absolute;
+      
+    }
+body{
+  height:100vh;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:blanchedalmond;
+}
+.first{
+  left:30%;
+  z-index: 1;
+}
+.first:hover{
+  z-index: 8;
+}
+.second{
+  top:20%;
+	left: 50%;
+	bottom: 30%;
+  z-index: 4;
+}
+.second:hover{
+  z-index: 7;
+}
+.third{
+  right:10%;
+  top:30%;
+  z-index: 2;
+}
+.third:hover{
+  z-index: 5;
+}
+.fourth{
+  left:5%;
+  top:40%;
+  z-index: 0;
+}
+.fourth:hover{
+  z-index: 5;
+}
+.fifth{
+  z-index:0;
+  left:10%;
+  bottom:10%;
+}
+.fifth:hover{
+  z-index: 5;
+}
